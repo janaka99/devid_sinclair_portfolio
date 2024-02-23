@@ -24,14 +24,22 @@ const Footer = () => {
           <h3 className="text-white">Links</h3>
           <div className="flex flex-col gap-4 text-gray-400">
             <a href="#about">About Me</a>
-            <a href="#portfolio">Portfolio</a>
             <a href="#contact">Contact Me</a>
             <a href="#home">Home</a>
+            <a
+              className="underline"
+              href="https://janaka-de-gallery.netlify.app"
+            >
+              My Gallery
+            </a>
           </div>
         </div>
       </div>
       <div className="text-center text-gray-400">
-        Copyright ©2023 All rights reserved | Deveon
+        Copyright ©2023 All rights reserved |{" "}
+        <a className="underline" href="https://janakachamith.online">
+          Janaka Chamith
+        </a>
       </div>
     </footer>
   );
